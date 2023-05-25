@@ -3,7 +3,7 @@ import * as path from "path";
 
 const commonConfig: webpack.Configuration = {
   entry: {
-    app: "./src/index.ts",
+    index: "./src/index.ts",
   },
   module: {
     rules: [
